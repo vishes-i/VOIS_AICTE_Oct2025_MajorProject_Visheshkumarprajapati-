@@ -60,7 +60,7 @@ for i, row in filtered_df.iterrows():
 # ---------------------------------------------
 # 1️⃣ Load Dataset
 # ---------------------------------------------
-df = pd.read_csv(r"C:\Users\adity\OneDrive\Documents\Netflix Dataset.csv")
+df = pd.read_csv(r"Netflix Dataset.csv")
 
 # Clean column names (lowercase, remove spaces)
 df.columns = df.columns.str.strip().str.lower()
